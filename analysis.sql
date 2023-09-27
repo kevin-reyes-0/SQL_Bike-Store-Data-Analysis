@@ -64,7 +64,6 @@ SELECT
     MAX(order_date) AS last_order_date -- last order
 FROM orders;
 
-
 -- Sales Trend over the years (3 years)
 SELECT
 	YEAR(order_date) AS yr,
