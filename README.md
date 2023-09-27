@@ -1,4 +1,4 @@
-# Bike Store Data Analysis
+# SQL - Bike Store Data Analysis
 
 ## Description
 
