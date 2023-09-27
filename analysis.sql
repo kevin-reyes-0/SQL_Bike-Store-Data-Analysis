@@ -19,7 +19,7 @@ SELECT
 FROM order_items
 	LEFT JOIN products ON order_items.product_id = products.product_id
 	LEFT JOIN brands ON products.brand_id = brands.brand_id
-    LEFT JOIN categories ON products.category_id = categories.category_id
+	LEFT JOIN categories ON products.category_id = categories.category_id
 GROUP BY brands.brand_name, products.product_name, categories.category_name
 ORDER BY sales DESC;
 
@@ -33,7 +33,7 @@ SELECT
 FROM order_items
 	LEFT JOIN products ON order_items.product_id = products.product_id
 	LEFT JOIN brands ON products.brand_id = brands.brand_id
-    LEFT JOIN categories ON products.category_id = categories.category_id
+	LEFT JOIN categories ON products.category_id = categories.category_id
 GROUP BY brands.brand_name, products.product_name,categories.category_name
 ORDER BY quantity_sold DESC;
 
