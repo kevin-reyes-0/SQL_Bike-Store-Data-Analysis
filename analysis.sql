@@ -114,7 +114,8 @@ SELECT
 FROM stocks
 GROUP BY 1;
 
--- order-to-staff ratio per quarter
+
+-- ORDER-TO-STAFF-RATIO per Quarter
 SELECT
 	YEAR(orders.order_date) AS yr,
 	QUARTER(orders.order_date) AS qtr,
