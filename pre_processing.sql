@@ -1,4 +1,4 @@
-SELECT * FROM bike_db;
+USE bike_db;
 
 -- The columns "order_date", "required_date" and "shipped_date" in the orders table are set to TEXT - updated them to DATE type:
 
