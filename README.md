@@ -6,7 +6,7 @@ The Bike Store Data Analysis repository serves as a comprehensive project focuse
 
 ## About the Dataset
 
-The dataset used in this project was sourced from [Kaggle (https://www.kaggle.com/)]. I would like to express my gratitude to the original data provider for making this dataset available:
+The dataset used in this project was sourced from [Kaggle] (https://www.kaggle.com/). I would like to express my gratitude to the original data provider for making this dataset available:
 
 [Bike Store Relational Database | SQL](https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database)
 
